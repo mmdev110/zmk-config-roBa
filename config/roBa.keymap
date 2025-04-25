@@ -30,6 +30,16 @@
             bindings = <&mo 3>;
             key-positions = <32 33>;
         };
+
+        bootloader {
+            bindings = <&bootloader>;
+            key-positions = <15 27>;
+        };
+
+        boot2 {
+            bindings = <&bootloader>;
+            key-positions = <16 28>;
+        };
     };
 
     macros {
