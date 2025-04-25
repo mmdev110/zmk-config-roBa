@@ -26,11 +26,6 @@
             key-positions = <0 1>;
         };
 
-        scrollLayer {
-            bindings = <&mo 3>;
-            key-positions = <32 33>;
-        };
-
         bootloader {
             bindings = <&bootloader>;
             key-positions = <15 27>;
@@ -78,17 +73,17 @@
 
         SYMBOL {
             bindings = <
-&kp EXCLAMATION  &kp AT         &kp HASH        &kp DOLLAR            &kp PERCENT                                &kp MINUS      &kp EQUAL   &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp GRAVE
-&kp CARET        &kp AMPERSAND  &kp ASTERISK    &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &trans      &trans  &kp SEMICOLON  &kp SQT     &kp LEFT_BRACKET      &kp RIGHT_BRACKET      &kp DELETE
-&trans           &trans         &trans          &trans                &trans                 &trans      &trans  &kp COMMA      &kp PERIOD  &kp SLASH             &kp BACKSLASH          &trans
-&trans           &trans         &kp LANGUAGE_1  &trans                &trans                 &trans      &trans  &kp DELETE                                                              &none
+&kp EXCLAMATION  &kp AT         &kp HASH      &kp DOLLAR            &kp PERCENT                                &kp MINUS      &kp EQUAL   &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp GRAVE
+&kp CARET        &kp AMPERSAND  &kp ASTERISK  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &trans      &trans  &kp SEMICOLON  &kp SQT     &kp LEFT_BRACKET      &kp RIGHT_BRACKET      &trans
+&trans           &trans         &trans        &trans                &trans                 &trans      &trans  &kp COMMA      &kp PERIOD  &kp SLASH             &kp BACKSLASH          &trans
+&trans           &trans         &trans        &trans                &trans                 &trans      &trans  &kp DELETE                                                              &none
             >;
         };
 
         NUM_ARROW {
             bindings = <
-&kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp NUMBER_4  &kp N5                      &trans    &trans     &kp DELETE    &kp BACKSPACE  &kp LANGUAGE_2
-&kp NUMBER_6  &kp N7        &kp N8        &kp N9        &kp N0  &trans      &trans  &trans    &trans     &kp SPACE     &kp ENTER      &kp LANGUAGE_1
+&kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp NUMBER_4  &kp N5                      &trans    &trans     &kp DELETE    &kp BACKSPACE  &trans
+&kp NUMBER_6  &kp N7        &kp N8        &kp N9        &kp N0  &trans      &trans  &trans    &trans     &kp SPACE     &kp ENTER      &trans
 &trans        &trans        &trans        &trans        &trans  &trans      &trans  &kp LEFT  &kp RIGHT  &kp UP_ARROW  &kp RIGHT      &trans
 &trans        &trans        &trans        &trans        &trans  &trans      &trans  &trans                                            &trans
             >;
@@ -108,8 +103,8 @@
         MOUSE {
             bindings = <
 &trans  &trans  &trans  &trans  &trans                      &trans  &trans  &trans  &trans    &trans
-&trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans  &trans  &trans  &mkp MB3  &trans
 &trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans  &trans  &trans  &mkp MB1  &mkp MB2
+&trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans  &trans  &trans  &mkp MB3  &mo 3
 &trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans                            &trans
             >;
         };
