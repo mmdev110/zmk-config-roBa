@@ -82,10 +82,10 @@
 
         NUM_ARROW {
             bindings = <
-&kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp NUMBER_4  &kp N5                      &trans    &trans     &kp DELETE    &kp BACKSPACE  &trans
-&kp NUMBER_6  &kp N7        &kp N8        &kp N9        &kp N0  &trans      &trans  &trans    &trans     &kp SPACE     &kp ENTER      &trans
-&trans        &trans        &trans        &trans        &trans  &trans      &trans  &kp LEFT  &kp RIGHT  &kp UP_ARROW  &kp RIGHT      &trans
-&trans        &trans        &trans        &trans        &trans  &trans      &trans  &trans                                            &trans
+&kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp NUMBER_4  &kp N5                      &trans    &trans          &kp DELETE    &kp BACKSPACE  &trans
+&kp NUMBER_6  &kp N7        &kp N8        &kp N9        &kp N0  &trans      &trans  &trans    &trans          &kp SPACE     &kp ENTER      &trans
+&trans        &trans        &trans        &trans        &trans  &trans      &trans  &kp LEFT  &kp DOWN_ARROW  &kp UP_ARROW  &kp RIGHT      &trans
+&trans        &trans        &trans        &trans        &trans  &trans      &trans  &trans                                                 &trans
             >;
 
             sensor-bindings = <&inc_dec_kp LC(PAGE_UP) LC(PAGE_DOWN)>;
