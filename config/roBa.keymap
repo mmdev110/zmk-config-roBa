@@ -73,7 +73,7 @@
 
         SYMBOL {
             bindings = <
-&kp EXCLAMATION  &kp AT         &kp HASH      &kp DOLLAR            &kp PERCENT                                &trans         &kp EQUAL   &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp GRAVE
+&kp EXCLAMATION  &kp AT         &kp HASH      &kp DOLLAR            &kp PERCENT                                &kp MINUS      &kp EQUAL   &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp GRAVE
 &kp CARET        &kp AMPERSAND  &kp ASTERISK  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &trans      &trans  &kp SEMICOLON  &kp SQT     &kp LEFT_BRACKET      &kp RIGHT_BRACKET      &trans
 &trans           &trans         &trans        &trans                &trans                 &trans      &trans  &kp COMMA      &kp PERIOD  &kp SLASH             &kp BACKSLASH          &trans
 &trans           &trans         &trans        &trans                &trans                 &trans      &trans  &trans                                                                  &none
