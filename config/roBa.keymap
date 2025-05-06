@@ -82,10 +82,10 @@
 
         ARROW {
             bindings = <
-&trans  &trans  &trans  &trans  &trans                      &kp MINUS   &kp EQUAL   &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp GRAVE
-&trans  &trans  &trans  &trans  &trans  &trans      &trans  &kp LEFT    &kp DOWN    &kp UP_ARROW          &kp RIGHT              &kp MINUS
-&trans  &trans  &trans  &trans  &trans  &trans      &trans  &kp COMMA   &kp PERIOD  &kp SLASH             &kp BACKSLASH          &trans
-&trans  &trans  &trans  &trans  &trans  &trans      &trans  &kp DELETE                                                           &trans
+&trans  &trans  &trans  &trans  &trans                         &trans      &trans    &trans        &trans     &trans
+&trans  &trans  &trans  &trans  &trans  &trans      &trans     &kp LEFT    &kp DOWN  &kp UP_ARROW  &kp RIGHT  &trans
+&trans  &trans  &trans  &trans  &trans  &trans      &trans     &trans      &trans    &trans        &trans     &trans
+&trans  &trans  &trans  &trans  &trans  &trans      &kp ENTER  &kp DELETE                                     &trans
             >;
 
             sensor-bindings = <&inc_dec_kp LC(PAGE_UP) LC(PAGE_DOWN)>;
@@ -94,8 +94,8 @@
         MOUSE {
             bindings = <
 &trans  &trans  &trans  &trans  &trans                      &trans  &trans  &trans  &trans    &trans
-&trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans  &trans  &trans  &mkp MB1  &mkp MB2
 &trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans  &trans  &trans  &mkp MB3  &mo 4
+&trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans  &trans  &trans  &mkp MB1  &mkp MB2
 &trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans                            &trans
             >;
         };
@@ -111,10 +111,10 @@
 
         enter_bksp {
             bindings = <
-&trans  &trans  &trans  &trans  &trans                      &trans         &trans  &kp BACKSPACE  &kp DELETE  &trans
-&trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans         &trans  &kp ENTER      &trans      &trans
-&trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans         &trans  &trans         &trans      &trans
-&trans  &trans  &trans  &trans  &trans  &trans      &trans  &kp BACKSPACE                                     &trans
+&trans  &trans  &trans  &trans  &trans                         &trans         &trans  &kp BACKSPACE  &kp DELETE  &trans
+&trans  &trans  &trans  &trans  &trans  &trans      &trans     &trans         &trans  &kp ENTER      &trans      &trans
+&trans  &trans  &trans  &trans  &trans  &trans      &trans     &trans         &trans  &trans         &trans      &trans
+&trans  &trans  &trans  &trans  &trans  &trans      &kp ENTER  &kp BACKSPACE                                     &trans
             >;
         };
     };
